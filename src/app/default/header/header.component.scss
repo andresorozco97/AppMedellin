@@ -1,0 +1,37 @@
+.header-container-fluid{
+    height: 70px;
+    background-color: blue;
+}
+
+.header-container{
+    height: 100%;
+}
+
+.header-row{
+    height: 100%;
+}
+
+.header-col{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    &-left{}
+
+    &-right{
+        justify-content: flex-end;
+    }
+}
+
+.header{
+    &-logo{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    &-user{
+        width: 32px;
+        height: 32px;
+    }
+}

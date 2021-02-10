@@ -1,0 +1,56 @@
+.landing-container-fluid{
+    padding-top: 50px;
+}
+
+.landing-container{}
+
+.landing-row{}
+
+.landing-col{
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.end{
+    text-align: center;
+
+    .btn{
+        background-color: green;
+        border-radius: 10px;
+        color: white;
+        height: 45px;
+
+        &:hover{
+            background-color: gray;
+        }
+    }
+}
+
+.login-icon{
+    position: absolute;
+    width: 25px;
+    bottom: 8px;
+}
+
+.landing{
+
+    &-form{
+
+        &-input{
+            position: relative;
+        }
+
+        &-control{
+            margin: 15px 0px;
+            border: none;
+            border-bottom: 1px solid #c3c3c3;
+            padding-left: 35px;
+        }
+        
+        &-alert{
+            text-align: center;
+        }
+    }
+
+}

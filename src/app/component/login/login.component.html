@@ -1,0 +1,26 @@
+<div class="container-fluid landing-container-fluid">
+    <div class="container landing-container">
+        <div class="row landing-row">
+            <div class="col landing-col">
+                <form [formGroup]="form" class="form landing-form">
+                    <div class="landing-form-input">
+                        <img src="../../../assets/icon/username.png" alt="usernameIcon" class="login-icon">
+                        <input type="text" formControlName="username" class="form-control landing-form-control" placeholder="Usuario">
+                    </div>
+                    <div class="landing-form-input">
+                        <img src="../../../assets/icon/password.png" alt="usernameIcon" class="login-icon">
+                        <input type="text" formControlName="password" class="form-control landing-form-control" placeholder="Contraseña">
+                    </div>
+                    <div class="alert alert-danger landing-form-alert" role="alert" *ngIf="alert">
+                        <span>Debes llenar todos los campos</span>
+                    </div>
+                    <div class="end">
+                        <button type="button" class="btn form-control" (click)="onSubmit()">
+                            Ingresar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
