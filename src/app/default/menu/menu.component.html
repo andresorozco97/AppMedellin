@@ -1,1 +1,13 @@
-<p>menu works!</p>
+<div class="menu-container">
+    <ul class="navbar-nav menu-list">
+      <li class="menu-card" routerLink="/dashboard/all">
+        <a class="menu-card-link">Todos</a>
+      </li>
+      <li class="menu-card" routerLink="/dashboard/new">
+        <a class="menu-card-link">Agregar</a>
+      </li>
+      <li class="menu-card" (click)=logout()>
+        <a class="menu-card-link">Cerrar sesion</a>
+      </li>
+    </ul>
+  </div>
